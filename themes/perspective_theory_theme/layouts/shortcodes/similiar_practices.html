@@ -1,0 +1,16 @@
+
+{{ $tag := (index .Params 0) }}
+
+<p>Once you've practiced this for a few weeks, I highly recommend checking out:</p>
+
+<div class="index__container posts">
+  <div class="articles__list">
+    {{ range .Site.RegularPages }}
+      {{ if in .Params.categories $tag }}
+        {{ if in .Params.tags "practice" }}
+          <span><a class="link similar__practices__link" href="{{.Permalink}}">{{ .Title }}</a></span>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </div>
+</div>

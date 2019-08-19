@@ -1,0 +1,6 @@
+
+Sitemap: https://neverfapdeluxe.com/sitemap.xml
+User-agent: *
+Disallow: /tags/
+Disallow: /categories/
+Allow: /

@@ -1,0 +1,46 @@
+{{ define "response" }}
+  [
+    {{ range $index, $e := .Data.Pages }}
+      {{ if .Draft }}
+      {{ else }}
+
+        {{ if $index }}, {{ end }}
+        {
+          "title": {{ .Title | jsonify }}, "page_id": {{ .Params.PageId | jsonify }},
+          "description": {{ .Description | jsonify }},
+          "content": {{ .Content | jsonify }},
+          "date": {{ .Date.Format "2006-01-02" | jsonify }},
+          "draft": {{ .Draft | jsonify }},
+          "slug": {{ .Params.Slug | jsonify }},
+          "categories": {{ .Params.Categories | jsonify }}
+          "tags": {{ .Params.Tags | jsonify }},
+          "permalink" : {{ .Permalink | jsonify }},
+          "section": {{ .Section | jsonify }},
+
+          {{/* articles */}}
+          "tldr1": {{ if .Params.Tldr1 }}{{ .Params.Tldr1 | jsonify }}{{ else }}""{{ end }},
+          "tldr2": {{ if .Params.Tldr2 }}{{ .Params.Tldr2 | jsonify }}{{ else }}""{{ end }},
+          "tldr3": {{ if .Params.Tldr3 }}{{ .Params.Tldr3 | jsonify }}{{ else }}""{{ end }},
+          "tldr4": {{ if .Params.Tldr4 }}{{ .Params.Tldr4 | jsonify }}{{ else }}""{{ end }},
+          "tldr5": {{ if .Params.Tldr5 }}{{ .Params.Tldr5 | jsonify }}{{ else }}""{{ end }},
+
+          {{/* practices + courses*/}}
+          "overview": {{ if .Params.Overview }}{{ .Params.Overview | jsonify }}{{ else }}""{{ end }},
+
+          {{/* practices */}}
+          "category": {{ if .Params.Category }}{{ .Params.Category | jsonify }}{{ else }}""{{ end }},
+          "what": {{ if .Params.What }}{{ .Params.What | jsonify }}{{ else }}""{{ end }},
+          "how": {{ if .Params.How }}{{ .Params.How | jsonify }}{{ else }}""{{ end }},
+          "when": {{ if .Params.When }}{{ .Params.When | jsonify }}{{ else }}""{{ end }},
+          "duration": {{ if .Params.Duration }}{{ .Params.Duration | jsonify }}{{ else }}""{{ end }},
+
+          {{/* courses */}}
+          "number": {{ if .Params.Number }}{{ .Params.Number | jsonify }}{{ else }}""{{ end }},
+          "learn1": {{ if .Params.Learn1 }}{{ .Params.Learn1 | jsonify }}{{ else }}""{{ end }},
+          "learn2": {{ if .Params.Learn2 }}{{ .Params.Learn2 | jsonify }}{{ else }}""{{ end }},
+          "learn3": {{ if .Params.Learn3 }}{{ .Params.Learn3 | jsonify }}{{ else }}""{{ end }}
+        }
+      {{ end }}
+    {{ end }}
+  ]
+{{ end }}

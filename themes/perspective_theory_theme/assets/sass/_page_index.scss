@@ -1,0 +1,148 @@
+.page__index {
+  background: $white-text;
+  padding: 1rem;
+  border: 4px solid $black-background;
+
+  margin-bottom: 2rem;
+
+  // background: -moz-linear-gradient(45deg, $magenta 0%, rgba(227,152,2,1) 100%); /* ff3.6+ */
+  // background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, $magenta), color-stop(100%, rgba(227,152,2,1))); /* safari4+,chrome */
+  // background: -webkit-linear-gradient(45deg, $magenta 0%, rgba(227,152,2,1) 100%); /* safari5.1+,chrome10+ */
+  // background: -o-linear-gradient(45deg, $magenta 0%, rgba(227,152,2,1) 100%); /* opera 11.10+ */
+  // background: -ms-linear-gradient(45deg, $magenta 0%, rgba(227,152,2,1) 100%); /* ie10+ */
+  // background: linear-gradient(45deg, $magenta 0%, rgba(227,152,2,1) 100%); /* w3c */
+  // color: $white-text;
+
+  .page__index__title {
+    font-size: 3rem!important;
+    line-height: 4rem!important;
+    color: $black-header-text!important;
+    margin: 0!important;
+    padding: 1rem!important;
+  }
+
+  .page__index__emoji__left {
+    position: relative;
+    left: -0.3rem;
+  }
+
+  .page__index__emoji__right {
+    position: relative;
+    right: -0.3rem;
+  }
+
+  .index__items {
+    .index__item--nfd {
+      // margin-bottom: -0.4rem!important;
+      position: relative;
+      top: 0.5rem;
+      margin-right: 0.2rem!important;
+
+    }
+
+    .index__item {
+      cursor: pointer;
+      color: $black-text;
+      // margin-bottom: 1rem;
+      padding: 0.5rem;
+      // padding-top: 0.7rem;
+      // padding-bottom: 0.9rem;
+
+      border-top: 5px solid $white-text;
+      border-bottom: 5px solid $white-text;
+
+      line-height: 1.6rem;
+      // transition: 0.4s border-bottom, 0.4s box-shadow;
+
+      .discord__text {
+        position: relative;
+        left: -0.6rem;
+      }
+      .account__nfd__button__logo {
+        position: relative;
+        margin-right: 0.4rem;
+        height: 28px;
+        width: 28px;
+        top: 0.4rem;
+        left: -0.05rem;
+      }
+      .account__discord__button__logo {
+        margin-right: 0.6rem;
+        height: 34px;
+        width: 34px;
+        top: 0.6rem;
+        left: -0.3rem;
+      }
+      .account__reddit__button__logo {
+        margin-right: 0.6rem;
+        height: 24px;
+        width: 24px;
+        top: 0.3rem;
+      }
+      .account__patreon__button__logo {
+        margin-right: 0.6rem;
+        height: 24px;
+        width: 24px;
+        top: 0.3rem;
+      }
+      .account__instagram__button__logo {
+        position: relative;
+        margin-right: 0.6rem;
+        height: 24px;
+        width: 24px;
+        top: 0.3rem;
+      }
+      .account__facebook__button__logo {
+        margin-right: 0.6rem;
+        height: 24px;
+        width: 24px;
+        top: 0.3rem;
+      }
+      .account__twitter__button__logo {
+        margin-right: 0.6rem;
+        height: 24px;
+        width: 24px;
+        top: 0.3rem;
+      }
+      .account__youtube__button__logo {
+        margin-right: 0.6rem;
+        height: 24px;
+        width: 24px;
+        top: 0.3rem;
+      }
+      .account__tumblr__button__logo {
+        margin-right: 0.6rem;
+        height: 24px;
+        width: 24px;
+        top: 0.3rem;
+      }
+      .account__pinterest__button__logo {
+        margin-right: 0.6rem;
+        height: 24px;
+        width: 24px;
+        top: 0.3rem;
+      }
+      .account__paypal__button__logo {
+        margin-right: 0.6rem;
+        height: 24px;
+        width: 24px;
+        top: 0.3rem;
+      }
+    }
+
+    .index__item:hover {
+      // background: lightgrey;
+      text-shadow: -2px 2px $magenta;
+    }
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .page__index {
+    padding: 2rem;
+
+    .page__index__title {
+      padding: 0rem;
+    }
+  }
+}

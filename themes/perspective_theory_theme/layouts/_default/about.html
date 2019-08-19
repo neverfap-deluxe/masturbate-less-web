@@ -1,0 +1,43 @@
+{{ define "main" }}
+  <div class="single__wrapper">   
+    <h2 class="single__title">{{ .Title }} <img src="/images/logo.png" class="logo__square" alt=""/></h2>
+  </div>
+
+  <%# INDEX %>
+  <div class="single__wrapper">
+    <div class="page__index">
+      <h2 class="page__index__title">Index</h1>
+
+      <ol class="index__items">
+        <h3><i class="page__index__emoji__left em em-clap"></i> About <i class="page__index__emoji__right em em-clap"></i></h3>
+        <a href="#introduction"><li class="index__item">Introduction</li></a>
+        <a href="#motivation"><li class="index__item">Motivation</li></a>
+        <a href="#philosophy"><li class="index__item">Philosophy</li></a>
+        <a href="#contact_me"><li class="index__item">Contact Me</li></a>
+        <a href="#next_steps"><li class="index__item">Next Steps</li></a>
+      </ol>
+    </div>
+  </div>
+
+  <%= partial "links/paypal.html", assigns %>
+<%# INDEX END %>
+
+  <div class="single__wrapper">   
+    <div class="single__content">
+      <h1>Introduction</h1>
+      <p>My name is Julius Reade.</p>
+      <p>I created Masturbate Less in 2019 to help those struggling with their masturbation habits.</p>
+      <p>Masturbate Less is actually the sister website to <a href="https://neverfapdeluxe.com/">NeverFap Deluxe</a>, a website I created to help those suffering from porn addiction.</p>
+    </div>
+  </div>
+
+  <div class="single__wrapper">   
+    <div class="single__content">
+      <h1>Motivation</h1>
+      <p>As part of NeverFap Deluxe, I managed to speak with a lot of people in regards to their own personal problems with porn addiction.</p>
+      <p>And as it turns out, there were quite a lot of people out there who actually struggle with mastrubation addiction as well.</p>
+      <p>Who surprisingly, also </p>
+    </div>
+  </div>
+
+{{ end }}

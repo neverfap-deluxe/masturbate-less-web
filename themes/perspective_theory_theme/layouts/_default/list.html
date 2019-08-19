@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <div class="list__wrapper">
+    <h1>{{ .Title }}</h1>
+    <ul class="list">
+    <!-- Renders the li.html content view for each content/posts/*.md -->
+      {{ range .Pages }}
+        <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}
+
+

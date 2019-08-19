@@ -1,0 +1,218 @@
+* {
+  font-family: 'Lato', 'Monserrat',  'Noto Sans', sans-serif;
+  // font-family: 'Noto Sans', sans-serif;
+  // font-family: 'Monserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  // display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 5px solid $black-background;
+  border-bottom: 5px solid $black-background;
+  border-left: 5px solid $black-background;
+  border-right: 5px solid $black-background;
+  margin: 0!important;
+  background: rgb(253, 253, 253);
+  position: relative;
+  height: initial!important;
+
+  // position: absolute;
+  // top: 0;
+  // bottom: 0;
+  // left: 0;
+  // right: 0;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 3rem;
+  margin-top: 0.9rem;
+  margin-bottom: 0.9rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+p, b {
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+
+.articles__link {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  transition: border-bottom .1s, color .1s;
+  font-size: 1.05rem;
+  line-height: 1.6rem;
+  padding: 0.6rem;
+  border: 4px solid rgba(255,46,182,1);
+  box-shadow: -5px 5px 0px 0px cyan;
+  color: black!important;
+  transition: box-shadow .2s;
+}
+
+.articles__link:hover {
+  // border-bottom: none!important;
+  color: lighten(rgba(255,46,182,1), 15%);
+  box-shadow: -8px 8px 0px 0px black;
+  border-bottom: 4px solid rgba(255,46,182,1)!important;
+}
+
+.link {
+  color: rgba(255,46,182,1);
+  text-decoration-line: underline;
+  text-decoration-color: cyan;
+
+  // border: 4px solid rgba(255,46,182,1);
+  // box-shadow: -5px 5px 0px 0px cyan;
+  // padding: 0.2rem;
+}
+
+.link:hover {
+  border-bottom: 2px solid cyan;
+}
+
+hr {
+  border: 0;
+  border-bottom: 1px solid black;
+}
+
+.hr2 {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  // box-shadow: -5px 5px 0px 0px black;
+}
+
+.hr2__bottom {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  // box-shadow: -5px 5px 0px 0px black;
+}
+
+
+.hr3 {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.hr3__bottom {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+
+.hr4 {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.hr4__bottom {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+
+.hrul {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.hrul__bottom {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+
+
+.deluxe__font {
+  font-family: 'Parisienne', cursive;
+}
+
+.logo__square {
+  position: relative;
+  right: 0.2rem;
+  top: -1.3rem;
+  width: 14px;
+  height: 14px;
+}
+
+// EMOJI
+
+.em {
+  position: relative;
+  top: -0.1rem;
+}
+
+.em-innocent {
+  top: 0;
+}
+
+.em-x, .em-cake, .em-bank {
+  position: relative;
+  left: 0.2rem;
+  top: 0;
+}
+
+.em-rainbow {
+  display: none;
+}
+
+.em-white_check_mark {
+  position: relative;
+  left: 0.7rem;
+  width: 30px;
+}
+
+.em-blush {
+  position: relative;
+  left: 0.24rem;
+  width: 30px;
+}
+
+@media screen and (min-width: 420px) {
+  // body {
+  //   margin: 0.5rem!important;
+  //   width: initial;
+  // }
+
+  .em-rainbow {
+    display: inline-block;
+  }
+}
+
+
+.contact__form__title-thing:hover {
+  color: lighten(rgba(255,46,182,1), 10%);
+}
+
+
+@media screen and (min-width: 420px) {
+  body {
+    margin: 0.5rem!important;
+    width: initial;
+  }
+
+  .em-white_check_mark {
+    display: inline-block!important;
+  }
+
+  .em-rainbow {
+    display: inline-block;
+  }
+}
