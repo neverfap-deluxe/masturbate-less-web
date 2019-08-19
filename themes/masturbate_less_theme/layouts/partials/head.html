@@ -87,23 +87,23 @@
     </script>
   {{ end }}
 
-  <title>{{ if eq .Section "courses" }}{{ "NeverFap Deluxe Courses |"}}{{ else if eq .Section "articles"}}{{ "NeverFap Deluxe Articles |"}}{{ else if eq .Section "practices"}}{{ "NeverFap Deluxe Practices |"}}{{ else }}{{ "NeverFap Deluxe |"}}{{ end }} {{ .Title }}</title>
+  <title>{{ .Title }}</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132863786-1"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132863786-7"></script>
   <script>
-    if (document.location.hostname.search("neverfapdeluxe.com") !== -1) {
+    if (document.location.hostname.search("masturbateless.com") !== -1) {
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'UA-132863786-1');
+      gtag('config', 'UA-132863786-7');
     }
-  </script> -->
+  </script>
 
   <!-- Internal Templates -->
   {{/* template "_internal/google_analytics_async.html" . */}}
-  {{/* template "_internal/opengraph.html" . */}}
   {{ template "_internal/twitter_cards.html" . }}
+  {{/* template "_internal/opengraph.html" . */}}
 </head>
 

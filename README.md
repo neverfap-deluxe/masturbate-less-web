@@ -1,6 +1,6 @@
-# Perspective Theory
+# Masturbate Less
 
-Website: https://perspectivetheory.com/
+Website: https://masturbateless.com/
 
 Released under the [GNU GPLv3 licence](https://github.com/neverfap-deluxe/nfd-api/blob/master/LICENSE).
 

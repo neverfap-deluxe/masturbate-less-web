@@ -1,6 +1,6 @@
 ---
-  title: "Perspective Theory"
-  description: "Perspective Theory. Mental health website blah blah blah."
+  title: "Masturbate Less"
+  description: "Masturbate Less. Mental health website blah blah blah."
   date: 2019-05-28
   draft: false
   tags: [ "porn recovery", "porn addiction", "addiction", "awareness", "nofap", "neverfap", "never fap", "NoFap Companion", "NoFap Companion", "neverfap deluxe", "nofap guide", "neverfap basics" ]
@@ -14,7 +14,7 @@
 
 My name is Julius Reade, and I've created this website to help people better understand themselves and their mental health issues. I write about the ways in which we make life unnecessarily difficult for ourselves, the context and functions behind these manifestations, and the techniques required to successfully break away from these mental cycles and embrace the beauty that life has to offer.
 
-<!-- You can access my blog [here](http://perspectivetheory.com/blog/). -->
+<!-- You can access my blog [here](http://masturbateless.com/blog/). -->
 
 
 ## We live in a world of...
@@ -30,7 +30,7 @@ Thankfully, I have two very contradictory benefits as a person that helped me br
 
 It also means that I no longer suffer helplessly from these symptoms. It doesn't mean that I'm immune to letting these cycles recur, however this is one of the beauties of self-awareness. It allows you to consistently understand the way you function and how best to enhance your life.
 
-<!-- You can access my blog [here](http://perspectivetheory.com/blog/). -->
+<!-- You can access my blog [here](http://masturbateless.com/blog/). -->
 
 
 ## What is self-awareness?
@@ -58,7 +58,7 @@ Understanding our beliefs can help us discover how our crippling insecurities a
 
 Many of us think our emotions are ultimately irrational, however it’s actually our harmful beliefs and the false images that affect the way we think, behave, and feel. Our negative emotions are a consequence of a broken system of belief. Even if we have good intentions for ourselves, which most of us do, without a proper technique and framework we cannot truly hope to change who we are. One pianist can spend 40 years learning a difficult piece and still not be able to play it properly, yet a similarly skilled pianist can learn the same piece within a few weeks. Technique and framework are the basis of talent; talent itself never stands on it's own.
 
-<!-- You can access my blog [here](http://perspectivetheory.com/blog/). -->
+<!-- You can access my blog [here](http://masturbateless.com/blog/). -->
 
 
 ## Personal responsibility for our mental health
@@ -74,7 +74,7 @@ We don't suffer needlessly because we're bad people. We never mean harm. I pers
 
 Naturally, changing after a lifetime of reinforced and destructive habits isn't a simple process. I certainly didn't change overnight, and there was a lot of resistance to freeing the tension in my mind. Yet we all get there in the end if we give ourselves a chance. I know I did, even though many won't. This is why I wanted to make a make a website to give people a better chance at becoming self-aware; to learn with ease and passion.
 
-<!-- You can access my blog [here](http://perspectivetheory.com/blog/). -->
+<!-- You can access my blog [here](http://masturbateless.com/blog/). -->
 
 
 ## Mental health for a 21st century
@@ -94,7 +94,7 @@ I’ve written more than 300 articles detailing the issues and dilemmas that peo
 
 Of course, it's a lot easier said that done. Nothing worth doing in life is easy, but that doesn't mean it can't be enjoyable. Ask yourself, is your mental health your number one priority? What are the long term consequences of not focusing on your mental health? Only you have the power to decide.
 
-<!-- You can access my blog [here](http://perspectivetheory.com/blog/). -->
+<!-- You can access my blog [here](http://masturbateless.com/blog/). -->
 
 
 ## Making a commitment to your happiness today
@@ -108,5 +108,5 @@ I remember making a commitment to myself, a few months prior to my birthday. I w
 
 I made this commitment, and I've never looked back. It may very well be the smartest decision of your entire life. While finding the courage to approach your life with intent may seem difficult, is any more difficult than spending the rest of your life living in perpetual pain? As for me, it was a complicated journey, but here I stand today - a proud subject and happy to be alive and thankful for every second of it. And you can feel the same.
 
-<!-- You can access my blog [here](http://perspectivetheory.com/blog/). -->
+<!-- You can access my blog [here](http://masturbateless.com/blog/). -->
 

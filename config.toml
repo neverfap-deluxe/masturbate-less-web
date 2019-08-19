@@ -1,8 +1,8 @@
-baseURL = "https://perspectivetheory.com/"
-title = "Perspective Theory | The Mental Health Website."
+baseURL = "https://masturbateless.com/"
+title = "Masturbate Less | The Mental Health Website."
 languageCode = "en-us"
-theme = "perspective_theory_theme"
+theme = "masturbate_less_theme"
 
 enableRobotsTXT = true
 canonifyURLs = true
-googleAnalytics = "UA-132863786-6"
+googleAnalytics = "UA-132863786-7"
