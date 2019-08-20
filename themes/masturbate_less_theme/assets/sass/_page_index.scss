@@ -1,9 +1,19 @@
+
+.page__index__title {
+  font-size: 3rem!important;
+  line-height: 4rem!important;
+  color: $black-header-text!important;
+  margin: 0!important;
+  padding: 1rem!important;
+}
+
 .page__index {
   background: $white-text;
   padding: 1rem;
   border: 4px solid $black-background;
 
   margin-bottom: 2rem;
+  width: 400px;
 
   // background: -moz-linear-gradient(45deg, $magenta 0%, rgba(227,152,2,1) 100%); /* ff3.6+ */
   // background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, $magenta), color-stop(100%, rgba(227,152,2,1))); /* safari4+,chrome */
@@ -12,14 +22,6 @@
   // background: -ms-linear-gradient(45deg, $magenta 0%, rgba(227,152,2,1) 100%); /* ie10+ */
   // background: linear-gradient(45deg, $magenta 0%, rgba(227,152,2,1) 100%); /* w3c */
   // color: $white-text;
-
-  .page__index__title {
-    font-size: 3rem!important;
-    line-height: 4rem!important;
-    color: $black-header-text!important;
-    margin: 0!important;
-    padding: 1rem!important;
-  }
 
   .page__index__emoji__left {
     position: relative;

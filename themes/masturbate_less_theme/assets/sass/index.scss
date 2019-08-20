@@ -25,3 +25,17 @@
 // @import "_javascript.scss";
 @import "_form.scss";
 // @import "_shortcodes.scss";
+
+.flex__start {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start!important;
+  justify-content: center;
+}
+
+.flex__end {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end!important;
+  justify-content: center;
+}
