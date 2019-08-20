@@ -1,8 +1,8 @@
 ---
-  title: "About"
-  description: "About Masturbate Less."
+  title: "About Masturbate Less"
+  description: "Masturbate Less a comprehensive masturbation reduction website."
   date: 2019-08-07
-  draft: true
+  draft: false
   tags: [ "masturbate less", "porn addiction", "addiction", "awareness", "nofap", "neverfap", "neverfap deluxe", "neverfap basics", "nofap podcast", "neverfap podcast", "neverfap deluxe podcast" ]
   categories: [ "" ]
   
@@ -13,7 +13,7 @@
 ---
 
 
-
+arst
 
 
 ## About Me 

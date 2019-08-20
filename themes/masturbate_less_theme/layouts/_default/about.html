@@ -1,6 +1,7 @@
 {{ define "main" }}
-<div class="single__hero">
-    <h2 class="single__hero__title">{{ .Title }} <img src="/images/logo.png" class="logo__square" alt=""/></h2>
+  <div class="single__hero">
+    <h2 class="single__hero__title">{{ .Title }} arst arst rs t</h2>
+    <h3 class="single__hero__sub__title">{{ .Description }}</h3>
   </div>
 
   <!-- INDEX -->
@@ -17,33 +18,37 @@
         </ol>
       </div>
     </div>
-
-    <%= partial "links/paypal.html", assigns -->
   <!-- INDEX END -->
 
 
   <!-- INTRODUCTION -->
-    <div id="introduction" class="single__wrapper">
-      <div class="single__content">
-        <h1>Introduction</h1>
-        <p>My name is Julius Reade.</p>
-        <p>I created Masturbate Less in 2019 to help those struggling with their masturbation habits.</p>
-        <p>Masturbate Less is actually the sister website to <a href="https://neverfapdeluxe.com/">NeverFap Deluxe</a>, a website I created to help those suffering from porn addiction.</p>
-        <p>So if you feel as if you're actually addicted to porn rather than have a problem with masturbation, then I would recommend checking it out!</p>
+    <div id="introduction" class="main__section">
+      {{ partial "main_section_title.html" (dict "Title" "Introduction" )}}
+
+      <div class="main__section--content__container">
+        <div class="main__section--content">
+          <p>My name is Julius Reade.</p>
+          <p>I created Masturbate Less in 2019 to help those struggling with their masturbation habits.</p>
+          <p>Masturbate Less is actually the sister website to <a href="https://neverfapdeluxe.com/">NeverFap Deluxe</a>, a website I created to help those suffering from porn addiction.</p>
+          <p>So if you feel as if you're actually addicted to porn rather than have a problem with masturbation, then I would recommend checking it out!</p>    
+        </div>
       </div>
     </div>
   <!-- INTRODUCTION END -->
 
 
   <!-- MOTIVATION -->
-    <div id="motivation" class="single__wrapper">
-      <div class="single__content">
-        <h1>Motivation</h1>
-        <p>As part of NeverFap Deluxe, I managed to speak with a lot of people in regards to their own personal problems with porn addiction.</p>
-        <p>And as it turns out, there were quite a lot of people out there who actually struggling with mastrubation and who didn't watch porn at all.</p>
-        <p>Which surprised me, since personally speaking the only reason why I masturbated was largely because I was addicted to porn.</p>
-        <p>So I thought I'd create this website to help those people who struggle solely with masturbation.</p>
-        <p>Thankfully a lot of the same principles apply, especially in regards to developing control over your mind.</p>
+    <div id="motivation" class="main__section">
+      {{ partial "main_section_title.html" (dict "Title" "Motivation" )}}
+
+      <div class="main__section--content__container">
+        <div class="main__section--content">
+          <p>As part of NeverFap Deluxe, I managed to speak with a lot of people in regards to their own personal problems with porn addiction.</p>
+          <p>And as it turns out, there were quite a lot of people out there who actually struggling with mastrubation and who didn't watch porn at all.</p>
+          <p>Which surprised me, since personally speaking the only reason why I masturbated was largely because I was addicted to porn.</p>
+          <p>So I thought I'd create this website to help those people who struggle solely with masturbation.</p>
+          <p>Thankfully a lot of the same principles apply, especially in regards to developing control over your mind.</p>
+        </div>
       </div>
     </div>
   <!-- MOTIVATION END -->

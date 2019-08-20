@@ -88,7 +88,7 @@
     </script>
   {{ end }}
 
-  <title>{{ .Title }}</title>
+  <title>{{ if eq .Section "articles" }}{{ "Masturbate Less Articles |"}}{{ else }}{{ "Masturbate Less |"}}{{ end }} {{ .Title }}</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132863786-7"></script>

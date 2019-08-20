@@ -1,6 +1,6 @@
 {{ define "main" }}
   <div class="single__hero">
-    <h2 class="single__hero__title">{{ .Title }} <img src="/images/logo.png" class="logo__square" alt=""/></h2>
+    <h2 class="single__hero__title">{{ .Title }} </h2>
   </div>
 
   <!-- INDEX -->
@@ -18,17 +18,25 @@
     </div>
   <!-- INDEX END -->
 
-    <div class="single__content">
-      {{ .Content }}
+  <!-- INTRODUCTION -->
+    <div id="introduction" class="single__wrapper">
+      <div class="single__content">
+        <h2>Introduction</h2>
+        <p>Masturbate Less features a range of articles which help explain the dynamics of why we masturbate, as well as what we can do to regain control over our masturbation habit.</p>
+      </div>
     </div>
+  <!-- INTRODUCTION END -->
 
-    <div>
+  <div id="articles_list" class="single__wrapper">
+    <div class="single__content">
+      <h2>Articles List</h2>
+
       {{ range .Site.RegularPages }}
         <a class="post" href="{{.Permalink}}">
           <h5 class="post__date">{{.Date.Format "2006-01-02"}}</h5>
           <h4 class="post__title">{{.LinkTitle}}</h4>
         </a>
-      {{ end }}
+      {{ end }}  
     </div>
   </div>
 {{ end }}

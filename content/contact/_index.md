@@ -1,6 +1,6 @@
 ---
-  title: "Masturbate Less Contact"
-  description: "Masturbate Less Contact."
+  title: "Contact Masturbate Less"
+  description: "Contact Masturbate Less."
   date: 2019-08-07
   draft: false
   tags: [ "masturbate less", "porn addiction", "addiction", "awareness", "nofap", "neverfap", "neverfap deluxe", "neverfap basics", "nofap podcast", "neverfap podcast", "neverfap deluxe podcast" ]

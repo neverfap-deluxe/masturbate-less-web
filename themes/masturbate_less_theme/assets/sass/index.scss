@@ -12,8 +12,8 @@
 
 // // pages
 @import "_homepage.scss";
+@import "_single.scss";
 // @import "_courses.scss";
-// @import "_single.scss";
 // @import "_page.scss";
 
 // // components
@@ -23,5 +23,5 @@
 
 // // miscellaneous
 // @import "_javascript.scss";
-// @import "_form.scss";
+@import "_form.scss";
 // @import "_shortcodes.scss";
