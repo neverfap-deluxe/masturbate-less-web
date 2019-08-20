@@ -3,41 +3,85 @@
     <h2 class="single__title">{{ .Title }} <img src="/images/logo.png" class="logo__square" alt=""/></h2>
   </div>
 
-  <%# INDEX %>
-  <div class="single__wrapper">
-    <div class="page__index">
-      <h2 class="page__index__title">Index</h1>
+  <!-- INDEX -->
+    <div class="single__wrapper">
+      <div class="page__index">
+        <h2 class="page__index__title">Index</h1>
 
-      <ol class="index__items">
-        <h3><i class="page__index__emoji__left em em-clap"></i> About <i class="page__index__emoji__right em em-clap"></i></h3>
-        <a href="#introduction"><li class="index__item">Introduction</li></a>
-        <a href="#motivation"><li class="index__item">Motivation</li></a>
-        <a href="#philosophy"><li class="index__item">Philosophy</li></a>
-        <a href="#contact_me"><li class="index__item">Contact Me</li></a>
-        <a href="#next_steps"><li class="index__item">Next Steps</li></a>
-      </ol>
+        <ol class="index__items">
+          <h3><i class="page__index__emoji__left em em-clap"></i> About <i class="page__index__emoji__right em em-clap"></i></h3>
+          <a href="#introduction"><li class="index__item">Introduction</li></a>
+          <a href="#motivation"><li class="index__item">Motivation</li></a>
+          <a href="#contact_me"><li class="index__item">Contact Me</li></a>
+          <a href="#next_steps"><li class="index__item">Next Steps</li></a>
+        </ol>
+      </div>
     </div>
-  </div>
 
-  <%= partial "links/paypal.html", assigns %>
-<%# INDEX END %>
+    <%= partial "links/paypal.html", assigns -->
+  <!-- INDEX END -->
 
-  <div class="single__wrapper">   
-    <div class="single__content">
-      <h1>Introduction</h1>
-      <p>My name is Julius Reade.</p>
-      <p>I created Masturbate Less in 2019 to help those struggling with their masturbation habits.</p>
-      <p>Masturbate Less is actually the sister website to <a href="https://neverfapdeluxe.com/">NeverFap Deluxe</a>, a website I created to help those suffering from porn addiction.</p>
+
+  <!-- INTRODUCTION -->
+    <div id="introduction" class="single__wrapper">   
+      <div class="single__content">
+        <h1>Introduction</h1>
+        <p>My name is Julius Reade.</p>
+        <p>I created Masturbate Less in 2019 to help those struggling with their masturbation habits.</p>
+        <p>Masturbate Less is actually the sister website to <a href="https://neverfapdeluxe.com/">NeverFap Deluxe</a>, a website I created to help those suffering from porn addiction.</p>
+        <p>So if you feel as if you're actually addicted to porn rather than have a problem with masturbation, then I would recommend checking it out!</p>
+      </div>
     </div>
-  </div>
+  <!-- INTRODUCTION END -->
 
-  <div class="single__wrapper">   
-    <div class="single__content">
-      <h1>Motivation</h1>
-      <p>As part of NeverFap Deluxe, I managed to speak with a lot of people in regards to their own personal problems with porn addiction.</p>
-      <p>And as it turns out, there were quite a lot of people out there who actually struggle with mastrubation addiction as well.</p>
-      <p>Who surprisingly, also </p>
+
+  <!-- MOTIVATION -->
+    <div id="motivation" class="single__wrapper">   
+      <div class="single__content">
+        <h1>Motivation</h1>
+        <p>As part of NeverFap Deluxe, I managed to speak with a lot of people in regards to their own personal problems with porn addiction.</p>
+        <p>And as it turns out, there were quite a lot of people out there who actually struggling with mastrubation and who didn't watch porn at all.</p>
+        <p>Which surprised me, since personally speaking the only reason why I masturbated was largely because I was addicted to porn.</p>
+        <p>So I thought I'd create this website to help those people who struggle solely with masturbation.</p>
+        <p>Thankfully a lot of the same principles apply, especially in regards to developing control over your mind.</p>
+      </div>
     </div>
-  </div>
+  <!-- MOTIVATION END -->
+
+
+  <!-- CONTACT ME -->
+    <div id="contact_me" class="single__wrapper" style="padding-top: 0rem!important;">
+      <div class="single__content">
+        <p>If you would like to get in touch, please provide your name, email and message, and I will get back to you as soon as possible!</p>
+        <p>I also offer <a class="link" href="<%= Routes.page_path(@conn, :programs_coaching) -->">Personal Coaching</a> for those interested in receiving additional help from someone who's been there before.</p>
+      </div>          
+
+      <div class="form__wrapper form__wrapper--full-width">
+        <form class="form" action="https://formspree.io/admin@neverfapdeluxe.com" method="POST">
+          <!-- <h4 class="form__title">THE FORM</h4> -->
+        <div class="form__input__container">
+          <input class="form__input" type=text: placeholder="Name" name='name'/>
+          <input class="form__input" type="email" placeholder="Email" name='_replyTo'/>
+          <textarea class="form__input form__textarea" type=text: placeholder="Message" name='message'></textarea>
+        </div>
+
+        <div class="form__submission__container">
+          <button class="form__button" type="submit" value="Send">Send</button>
+        </div>
+        </form>
+      </div>
+    </div>
+  <!-- CONTACT ME END -->
+
+
+  <!-- NEXT STEPS -->
+    <div id="next_steps" class="single__wrapper">   
+      <div class="single__content">
+        <h1>Next Steps</h1>
+        <p>I would </p>
+      </div>
+    </div>
+  <!-- NEXT STEPS END -->
+
 
 {{ end }}
